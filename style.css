@@ -23,7 +23,7 @@ body
 {
     color:darkorange;
 }
-section
+.flexible
 {
      display: flex;
      margin-bottom: 100px;
@@ -52,4 +52,38 @@ section
     background-repeat:no-repeat;
     background-position: right;
     
+}
+.exp 
+{
+    box-shadow: 10px 10px 30px gray;
+    padding-left: 20px;
+    border-radius: 15px;
+    width: 40%;
+    margin-right: 5%;
+    margin-left: 5%;
+
+}
+.park8
+{
+   background-image: url(boro-lok/exp-bg.png); 
+   background-repeat: no-repeat;
+   background-position: left;
+}
+#park9
+{
+    border-image: linear-gradient(blue,cyan );
+    border-image-slice: 1;
+    border-left: 5px  solid;
+    
+
+}
+#park10
+{
+    border-image: linear-gradient(red,tomato) ;
+    border-left: 5px solid;
+    border-image-slice: 1;
+   
+}
+footer p {
+    text-align: center;
 }
