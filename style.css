@@ -1,11 +1,14 @@
 body
 {
     font-family: 'Otomanopee One', sans-serif;
-    margin: 0;}
-    
+    margin: 0;
+
+}
+
 .park
 {
     color: black;
+    
 }
 .park2
 {
@@ -23,6 +26,7 @@ body
 section
 {
      display: flex;
+     margin-bottom: 100px;
 
 }
 .park4 
@@ -40,4 +44,12 @@ section
      background-image: url( boro-lok/top-banner.png);
      background-repeat:no-repeat;
      
+}
+
+.park6
+{
+    background-image: url(boro-lok/dream-bg.png);
+    background-repeat:no-repeat;
+    background-position: right;
+    
 }
